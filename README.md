@@ -6,20 +6,17 @@ OSM Data Model<br/>
 nodes, ways, relations
 
 #### Geocoding/Reverse Geocoding
-Nominatim is OSM
+Nominatim is tool used with OSM
 Pelias, Photon are others
 
 #### Open Source Desktop (similar to ArcGIS)
-#### GRASS
-https://grass.osgeo.org/
+[GRASS](https://grass.osgeo.org/)
 
-#### QGIS
-http://www.qgis.org/en/site/
+[QGIS](http://www.qgis.org/en/site/)
 
-#### uDig
-http://udig.refractions.net/
+[uDig](http://udig.refractions.net/)
 
-#### Openlayers
+[Openlayers](https://openlayers.org/)
 https://openlayers.org/
 
 #### Mobile Development
