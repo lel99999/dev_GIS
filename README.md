@@ -21,3 +21,10 @@ https://openlayers.org/
 
 #### Mobile Development
 android, mapbox, leaflet, openstreetmap
+
+#### R Spatial Data Analysis using tidyverse
+Required Libraries<br/>
+sf, tidyverse, maps<br/>
+- install.packages("sf", dependencies = TRUE)
+- install.packages("tidyverse", dependencies = TRUE)
+- install.packages("maps", dependencies = TRUE)
