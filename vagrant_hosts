@@ -1,0 +1,3 @@
+[linuxhosts]
+RTidyverseRH7 ansible_host=192.168.60.147 
+
