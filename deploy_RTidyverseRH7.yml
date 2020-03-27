@@ -21,18 +21,22 @@
     - debug:
         msg: "RHEL Enabled Repos: {{ enabled_repos }}"
   tasks:
-#   - name: Install X Windows
-#     yum:
-#       name: "@X Window System"
-#       state: present
+    - name: Install X Windows
+      yum:
+        name: "@X Window System"
+        state: present
 
     - name: Install Development Tools
 #     shell:  yum groupinstall "Development Tools" -y
       yum:
         name: "@Development tools"
         state: present
-#   - name: Install JAVA OpenJDK 1.8
+
+    - name: Install JAVA OpenJDK 1.8
 #     shell: yum install java-1.8.0-openjdk java-1.8.0-openjdk-devel -y
+      yum:
+        name: java-1.8.0-openjdk-devel
+        state: present
 
   roles:
     - epel7
